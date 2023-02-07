@@ -1,0 +1,13 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  /* background-color: black; */
+  background-color: black;
+  /* background-image: url("Images/layered-waves-haikei.png"); */
+  /* background-size: contain; */
+}
