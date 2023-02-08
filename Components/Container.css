@@ -1,0 +1,19 @@
+.parent__container {
+  width: 75%;
+}
+
+.joints__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cas__container {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 3rem;
+  text-align: center;
+}
