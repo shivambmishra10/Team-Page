@@ -8,32 +8,67 @@ const Sidebar = () => {
       <ul class="nav__links">
         <li class="nav__item">
           <a class="nav__link" href="#joints">
-            Features
+            CORE
           </a>
         </li>
         <li class="nav__item">
           <a class="nav__link" href="#section--2">
-            Operations
+            INFRA AND IN HOUSE MANAGERIAL
           </a>
         </li>
         <li class="nav__item">
           <a class="nav__link" href="#section--3">
-            Testimonials
+            WEB DEVELOPMENT
           </a>
         </li>
         <li class="nav__item">
           <a class="nav__link" href="#section--3">
-            Testimonials
+            PUBLICITY
           </a>
         </li>
         <li class="nav__item">
           <a class="nav__link" href="#section--3">
-            Testimonials
+            SPONSORSHIP
           </a>
         </li>
         <li class="nav__item">
           <a class="nav__link" href="#section--3">
-            Testimonials
+            PUBLIC RELATION
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">
+            HOSPITALITY
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">
+            DISCIPLINE
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">
+            ADMIN AND DOCUMNETATION
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">
+            DESIGN
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">
+            THINK TANK
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">
+            MEDIA CELL
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">
+            CINEMATOGRAPHY
           </a>
         </li>
       </ul>

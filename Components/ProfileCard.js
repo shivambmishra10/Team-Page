@@ -5,29 +5,42 @@ import "./ProfileCard.css";
 const ProfileCard = (props) => {
   return (
     <div class={props.classSpecial}>
-      <div class="card-info">
-        <div class="card-avatar">
-          <img className="card-avatar" src={props.imgSrc} alt="CAS image" />
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src={props.imgSrc} alt="image2" />
         </div>
-        <div class="card-title">{props.name}</div>
-        <div class="card-subtitle">
-          <h3>{props.position}</h3>
+        <div class="team-content">
+          <h3 class="name">{props.name}</h3>
+          <h4 class="title">{props.position}</h4>
         </div>
-        <ul class="card-social">
-          <li class="card-social__item">
-            <a href="#" className="card-social__link">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
+        <ul class="social">
+          <li>
+            <a
+              href="https://codepen.io/collection/XdWJOQ/"
+              class="fa fa-facebook"
+              aria-hidden="true"
+            ></a>
           </li>
-          <li class="card-social__item">
-            <a href="#" className="card-social__link">
-              <i class="fa-brands fa-facebook"></i>
-            </a>
+          <li>
+            <a
+              href="https://codepen.io/collection/XdWJOQ/"
+              class="fa fa-twitter"
+              aria-hidden="true"
+            ></a>
           </li>
-          <li class="card-social__item">
-            <a href="#" className="card-social__link">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
+          <li>
+            <a
+              href="https://codepen.io/collection/XdWJOQ/"
+              class="fa fa-google-plus"
+              aria-hidden="true"
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://codepen.io/collection/XdWJOQ/"
+              class="fa fa-linkedin"
+              aria-hidden="true"
+            ></a>
           </li>
         </ul>
       </div>

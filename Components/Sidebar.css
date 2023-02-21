@@ -1,25 +1,27 @@
 .sidebar {
-  width: 23%;
-  background-color: blueviolet;
+  width: 33%;
+  background-color: black;
   font-size: 1.3rem;
   padding: 0.2rem;
   /* height: calc(100vh-81px); */
-  height: 38rem;
+  /* height: 38rem; */
   position: fixed;
   right: 0;
   top: 4.95rem;
+  margin-top: 3.5rem;
 }
 
 .nav__links {
   list-style: none;
-  text-align: right;
+  text-align: center;
   margin-right: 3rem;
+  line-height: 2.3rem;
 }
 
 .nav__link {
   text-decoration: none;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .nav__item {
