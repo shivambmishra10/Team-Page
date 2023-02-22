@@ -137,6 +137,7 @@ body {
   background-position: center;
   display: flex;
   align-items: center;
+  /* overflow-x: hidden; */
 }
 
 .our-team {
