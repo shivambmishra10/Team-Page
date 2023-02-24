@@ -1,0 +1,35 @@
+
+
+.parent__container {
+  width: 100%;
+  background: black;
+}
+.jcas{
+  display: flex;
+  justify-content: center;
+}
+
+.joints__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 4rem;
+}
+
+.joints__parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.cas__container {
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+  /* margin-left: 6rem; */
+}
+
+.heading {
+  font-size: 3rem;
+  text-align: center;
+  color: whitesmoke;
+}

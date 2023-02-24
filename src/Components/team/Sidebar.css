@@ -1,0 +1,43 @@
+.sidebar {
+  width: 5%;
+  background-color: black;
+  font-size: 1.3rem;
+  padding: 0.2rem;
+  position: fixed;
+  right: 0;
+  top: 14rem;
+  margin-top: 3.5rem;
+}
+
+.Side-container{
+  background-color: rgba(0, 0, 0, 0.751);
+  height: 100vh;
+}
+
+.nav__links {
+  list-style: none;
+  text-align: center;
+  margin-right: 3rem;
+  line-height: 2.3rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.nav__item {
+  margin-left: -1.5rem;
+}
+.nav__item  :hover{
+  text-shadow: 2px 2px crimson;
+  font-size: 1.8rem;
+}
+
+
+.Side-arrow{
+  width: 50px;
+  transform: rotate(180deg);
+  background-color: black;
+}
